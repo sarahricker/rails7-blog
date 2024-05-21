@@ -7,4 +7,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "blog_posts#index"
+
+  # Single Blog post
+  # relative: blog_post_path(1) or full url: blog_post_url(1) or object ( @blog_posts.each do |blog_post|)
+  get "/blog_posts/:id", to: "blog_posts#show", as: :blog_post
 end
