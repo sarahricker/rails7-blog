@@ -1,13 +1,21 @@
-# README
+# Rails7 Blog
+From the [GoRails: Build a Blog with Rails 7](https://gorails.com/episodes/blog-rails-new?autoplay=1) Guide
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby version
+ 
+3.0.0
 
-Things you may want to cover:
+## System dependencies
 
-* Ruby version
+- devise
+- tailwindcss
 
-* System dependencies
+## Local development
+
+- Starts web and css processes for tailwindcss
+  `bin/dev`
+
+## Other
 
 * Configuration
 
@@ -20,5 +28,3 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
