@@ -2,7 +2,7 @@
 From the [GoRails: Build a Blog with Rails 7](https://gorails.com/episodes/blog-rails-new?autoplay=1) Guide
 
 ## Ruby version
- 
+
 3.0.0
 
 ## System dependencies
@@ -12,8 +12,12 @@ From the [GoRails: Build a Blog with Rails 7](https://gorails.com/episodes/blog-
 
 ## Local development
 
-- Starts web and css processes for tailwindcss
-  `bin/dev`
+- `brew install postgresql`
+- `brew services start postgresql`
+- `bundle install`
+- `bin/dev`
+- - Starts web and css processes for tailwindcss
+
 
 ## Other
 
